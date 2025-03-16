@@ -69,7 +69,12 @@
 
 ## Cookies
 
+![image](https://github.com/user-attachments/assets/7b0c2c2b-51ac-48ec-a407-db59425043e0)
 
+![image](https://github.com/user-attachments/assets/29b8831c-22eb-4200-9993-3365d490e106)
+**Note:** Quite a bit of manual brute-forcing was used lmao
+
+**Flag:** picoCTF{3v3ry1_l0v3s_c00k135_064663be}
 
 ## Scavenger Hunt
 
