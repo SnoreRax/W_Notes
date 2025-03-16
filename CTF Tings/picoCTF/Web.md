@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/59f1ce36-5397-43e7-ae88-7c069aa68966)# Easy Challenges
+# Easy Challenges
 
 ## Web Decode
 
