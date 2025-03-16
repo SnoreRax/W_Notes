@@ -91,7 +91,7 @@
 **4th Part**
 ![image](https://github.com/user-attachments/assets/3f853585-ea32-487f-8274-138aa5c1815f)
 
-**5th (and last) part**
+**5th part**
 ![image](https://github.com/user-attachments/assets/13561346-688b-4885-a3cd-3aa810e77224)
 
 **Flag:** picoCTF{th4ts_4_l0t_0f_pl4c3s_2_lO0k_a69684fd}
