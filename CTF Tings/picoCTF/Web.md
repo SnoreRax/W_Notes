@@ -42,7 +42,13 @@
 
 ## Local Authority
 
+![image](https://github.com/user-attachments/assets/93fe1b89-72b4-40f6-851b-1bedc2982840)
 
+**Note:** Make a login attempt beforehand to inspect source for this specific file
+
+![image](https://github.com/user-attachments/assets/4359653a-6ed5-43eb-81d1-ffc0cf4066be)
+
+**Flag:** picoCTF{j5_15_7r4n5p4r3n7_05df90c8} 
 
 ## Inspect HTML
 
