@@ -11,6 +11,9 @@
 
 ## Unminify
 
+![image](https://github.com/user-attachments/assets/5cc83f85-2f6f-4c9f-ab38-8921782418c0)
+
+**Flag:** picoCTF{pr3tty_c0d3_743d0f9b}
 
 
 ## Intro to Burp
