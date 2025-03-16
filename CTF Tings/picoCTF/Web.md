@@ -78,7 +78,23 @@
 
 ## Scavenger Hunt
 
+**1st Part**
+![image](https://github.com/user-attachments/assets/95b5c422-70b7-4286-b0fb-bc1246bd9c71)
 
+**2nd Part**
+![image](https://github.com/user-attachments/assets/ea83ac01-947a-4885-82ab-fe708f6922f4)
+
+**3rd Part**
+![image](https://github.com/user-attachments/assets/4cbebb06-24ed-4a6e-86b7-47d1b46c969c)
+![image](https://github.com/user-attachments/assets/939d2b59-8eab-4157-b32c-7ddd0c571304)
+
+**4th Part**
+![image](https://github.com/user-attachments/assets/3f853585-ea32-487f-8274-138aa5c1815f)
+
+**5th (and last) part**
+![image](https://github.com/user-attachments/assets/13561346-688b-4885-a3cd-3aa810e77224)
+
+**Flag:** picoCTF{th4ts_4_l0t_0f_pl4c3s_2_lO0k_a69684fd}
 
 ## GET aHEAD
 
