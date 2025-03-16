@@ -1,4 +1,4 @@
-# Easy Challenges
+![image](https://github.com/user-attachments/assets/59f1ce36-5397-43e7-ae88-7c069aa68966)# Easy Challenges
 
 ## Web Decode
 
@@ -52,11 +52,20 @@
 
 ## Inspect HTML
 
+![image](https://github.com/user-attachments/assets/8c42a169-d09e-4bb2-833f-453ddb3e95c0)
 
+
+**Flag:** picoCTF{1n5p3t0r_0f_h7ml_8113f7e2}
 
 ## Includes
 
+**2nd Part**
+![image](https://github.com/user-attachments/assets/42183de3-584c-4e1f-8b84-03c04b53d022)
 
+**1st Part**
+![image](https://github.com/user-attachments/assets/23ca595d-6b01-4644-9934-92bd3adfff74)
+
+**Flag:** picoCTF{1nclu51v17y_1of2_f7w_2of2_b8f4b022}
 
 ## Cookies
 
