@@ -108,18 +108,44 @@
 
 ## dont-use-client-side
 
+![image](https://github.com/user-attachments/assets/0ec370d6-fa1e-45a3-811a-2427b215d489)
+**Note:** I just unscrambled this myself lol
 
+![image](https://github.com/user-attachments/assets/ab19fc07-c15d-43ca-be6e-bc32af1e3656)
+
+**Flag:** picoCTF{no_clients_plz_7723ce}
 
 ## logon
 
+![image](https://github.com/user-attachments/assets/0cc0fe1b-c999-4fc7-aad7-c964a0b6fd8f)
 
+![image](https://github.com/user-attachments/assets/cd6154ae-5860-4ace-ad9e-e51f1c5e51b5)
+**Note:** If you hadn't noticed, I modified the cookie to set admin to _True_ instead of _False_
+
+![image](https://github.com/user-attachments/assets/3cd22e23-6ad6-434b-a691-4f88e1dd3671)
+
+**Flag:** picoCTF{th3_c0nsp1r4cy_l1v3s_d1c24fef}
 
 ## Insp3ct0r
 
+**1st Part**
+![image](https://github.com/user-attachments/assets/1f78fdfe-a570-48e2-95dc-bee34123ec03)
 
+**2nd Part**
+![image](https://github.com/user-attachments/assets/b23be8b9-cc0f-4d01-9efb-585a18b9ab45)
+
+**3rd Part**
+![image](https://github.com/user-attachments/assets/10c39dea-9f88-4c31-8d2b-b5f225a42602)
+
+**Flag:** picoCTF{tru3_d3t3ct1ve_0r_ju5t_lucky?f10be399}
 
 ## where are the robots
 
+![image](https://github.com/user-attachments/assets/b84332c5-7b8d-4ad7-b76b-a259d07aff1d)
+**P.S.** Landing Page just asked where the robots were so yeh
 
+![image](https://github.com/user-attachments/assets/02ae531c-7e9f-4bcc-a53d-4f43b0da8d0d)
+
+**Flag:** picoCTF{ca1cu1at1ng_Mach1n3s_8028f}
 
 # Medium Challenges
