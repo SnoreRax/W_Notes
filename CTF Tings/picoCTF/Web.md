@@ -98,7 +98,13 @@
 
 ## GET aHEAD
 
+![image](https://github.com/user-attachments/assets/d1db4c8e-834d-4d94-a511-69a52f616275)
 
+![image](https://github.com/user-attachments/assets/2e23b019-8e64-48cb-9898-77a8e28f62a7)
+
+![image](https://github.com/user-attachments/assets/8e445099-5e3c-4270-baa2-f93bda4ac786)
+
+**Flag:** picoCTF{r3j3ct_th3_du4l1ty_6ef27873}
 
 ## dont-use-client-side
 
