@@ -34,7 +34,11 @@
 
 ## Bookmarklet
 
+![image](https://github.com/user-attachments/assets/2bacf78d-47f0-4145-90ab-1c2d7bcd8f7a)
 
+![image](https://github.com/user-attachments/assets/4fb37da8-b4a1-46df-8149-1f3a9b41c661)
+
+**Flag:** picoCTF{p@g3_turn3r_6bbf8953}
 
 ## Local Authority
 
