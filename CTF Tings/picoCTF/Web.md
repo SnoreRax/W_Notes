@@ -18,7 +18,19 @@
 
 ## Intro to Burp
 
+![image](https://github.com/user-attachments/assets/287d3421-02bd-424f-b9f4-5b19fce72f7b)
 
+**Note:** Register the user in the previous page to get to **/dashboard**
+
+![image](https://github.com/user-attachments/assets/88b7c19a-804f-4d1d-8b81-21272ae891cc)
+**Before**
+
+![image](https://github.com/user-attachments/assets/9334224b-ae69-4f55-9ec2-c05e85dc0582)
+**After**
+
+![image](https://github.com/user-attachments/assets/3541166c-93a6-458b-92b9-9ada436974f2)
+
+**Flag:** picoCTF{#0TP_Bypvss_SuCc3$S_e1eb16ed}
 
 ## Bookmarklet
 
