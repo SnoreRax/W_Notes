@@ -6,7 +6,7 @@
 
 ``` echo cGljb0NURnt3ZWJfc3VjYzNzc2Z1bGx5X2QzYzBkZWRfMDJjZGNiNTl9 | base64 -d ```
 
-**Flag: picoCTF{web_succ3ssfully_d3c0ded_02cdcb59} **
+**Flag:** picoCTF{web_succ3ssfully_d3c0ded_02cdcb59}
 
 
 ## Unminify
