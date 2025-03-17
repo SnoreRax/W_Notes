@@ -151,3 +151,35 @@
 **Flag:** picoCTF{ca1cu1at1ng_Mach1n3s_8028f}
 
 # Medium Challenges
+
+## Trickster
+
+![image](https://github.com/user-attachments/assets/4014383a-48b6-4621-8795-25ee226d2ed4)
+
+**Used rev shell generator, check below for details**
+
+![image](https://github.com/user-attachments/assets/bb2c91c3-8664-4f56-b055-505ca89bddd3)
+
+![image](https://github.com/user-attachments/assets/a6e83985-7989-4840-b477-a9f840d8fe94)
+
+**Note:** added _PNG_ at the start of the file to trick the Magic Bytes into thinking it's a PNG file
+
+![image](https://github.com/user-attachments/assets/9d72f038-1bd6-4d73-9561-ca970391e83f)
+
+**Note:** _/uploads_ is a very common directory for file uploads to go
+
+![image](https://github.com/user-attachments/assets/f2a8acaf-1f3c-426b-90d2-a1eeb39219f1)
+
+Then run the commands:
+
+```
+ls
+ls ..
+cat ../MQZWCYZWGI2WE.txt
+```
+Do note that that file is where the flag is
+
+![image](https://github.com/user-attachments/assets/aa9eb693-2a6f-4169-ad37-d15f04eaec33)
+
+**Flag:** picoCTF{c3rt!fi3d_Xp3rt_tr1ckst3r_d3ac625b}
+
