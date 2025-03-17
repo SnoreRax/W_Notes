@@ -2,6 +2,8 @@
 
 ## Web Decode
 
+**Categories:** inspect source, crypto
+
 ![image](https://github.com/user-attachments/assets/2b105df2-f3c2-4512-ad00-82b606876525)
 
 ``` echo cGljb0NURnt3ZWJfc3VjYzNzc2Z1bGx5X2QzYzBkZWRfMDJjZGNiNTl9 | base64 -d ```
@@ -11,12 +13,16 @@
 
 ## Unminify
 
+**Categories:** 
+
 ![image](https://github.com/user-attachments/assets/5cc83f85-2f6f-4c9f-ab38-8921782418c0)
 
 **Flag:** picoCTF{pr3tty_c0d3_743d0f9b}
 
 
 ## Intro to Burp
+
+**Categories:** MITM, SSRF
 
 ![image](https://github.com/user-attachments/assets/287d3421-02bd-424f-b9f4-5b19fce72f7b)
 
@@ -34,6 +40,8 @@
 
 ## Bookmarklet
 
+**Categories:** 
+
 ![image](https://github.com/user-attachments/assets/2bacf78d-47f0-4145-90ab-1c2d7bcd8f7a)
 
 ![image](https://github.com/user-attachments/assets/4fb37da8-b4a1-46df-8149-1f3a9b41c661)
@@ -41,6 +49,8 @@
 **Flag:** picoCTF{p@g3_turn3r_6bbf8953}
 
 ## Local Authority
+
+**Categories:** 
 
 ![image](https://github.com/user-attachments/assets/93fe1b89-72b4-40f6-851b-1bedc2982840)
 
@@ -52,12 +62,16 @@
 
 ## Inspect HTML
 
+**Categories:** inspect source
+
 ![image](https://github.com/user-attachments/assets/8c42a169-d09e-4bb2-833f-453ddb3e95c0)
 
 
 **Flag:** picoCTF{1n5p3t0r_0f_h7ml_8113f7e2}
 
 ## Includes
+
+**Categories:** inspect source
 
 **2nd Part**
 ![image](https://github.com/user-attachments/assets/42183de3-584c-4e1f-8b84-03c04b53d022)
@@ -69,6 +83,8 @@
 
 ## Cookies
 
+**Categories:** cookies (duh)
+
 ![image](https://github.com/user-attachments/assets/7b0c2c2b-51ac-48ec-a407-db59425043e0)
 
 ![image](https://github.com/user-attachments/assets/29b8831c-22eb-4200-9993-3365d490e106)
@@ -77,6 +93,8 @@
 **Flag:** picoCTF{3v3ry1_l0v3s_c00k135_064663be}
 
 ## Scavenger Hunt
+
+**Categories:** inspect source, OSINT (kind of)
 
 **1st Part**
 ![image](https://github.com/user-attachments/assets/95b5c422-70b7-4286-b0fb-bc1246bd9c71)
@@ -99,6 +117,8 @@
 
 ## GET aHEAD
 
+**Categories:** MITM, SSRF
+
 ![image](https://github.com/user-attachments/assets/d1db4c8e-834d-4d94-a511-69a52f616275)
 
 ![image](https://github.com/user-attachments/assets/2e23b019-8e64-48cb-9898-77a8e28f62a7)
@@ -109,6 +129,8 @@
 
 ## dont-use-client-side
 
+**Categories:** 
+
 ![image](https://github.com/user-attachments/assets/0ec370d6-fa1e-45a3-811a-2427b215d489)
 **Note:** I just unscrambled this myself lol
 
@@ -117,6 +139,8 @@
 **Flag:** picoCTF{no_clients_plz_7723ce}
 
 ## logon
+
+**Categories:** cookies
 
 ![image](https://github.com/user-attachments/assets/0cc0fe1b-c999-4fc7-aad7-c964a0b6fd8f)
 
@@ -128,6 +152,8 @@
 **Flag:** picoCTF{th3_c0nsp1r4cy_l1v3s_d1c24fef}
 
 ## Insp3ct0r
+
+**Categories:** inspect source
 
 **1st Part**
 ![image](https://github.com/user-attachments/assets/1f78fdfe-a570-48e2-95dc-bee34123ec03)
@@ -142,6 +168,8 @@
 
 ## where are the robots
 
+**Categories:** robots.txt
+
 ![image](https://github.com/user-attachments/assets/b84332c5-7b8d-4ad7-b76b-a259d07aff1d)
 
 **P.S.** Landing Page just asked where the robots were so yeh
@@ -153,6 +181,8 @@
 # Medium Challenges
 
 ## Trickster
+
+**Categories:** file upload vulnerability, magic bytes, web shell, command injection
 
 ![image](https://github.com/user-attachments/assets/4014383a-48b6-4621-8795-25ee226d2ed4)
 
