@@ -13,7 +13,7 @@
 
 ## Unminify
 
-**Categories:** 
+**Categories:** inspect source
 
 ![image](https://github.com/user-attachments/assets/5cc83f85-2f6f-4c9f-ab38-8921782418c0)
 
@@ -40,7 +40,7 @@
 
 ## Bookmarklet
 
-**Categories:** 
+**Categories:** XSS (kind of)
 
 ![image](https://github.com/user-attachments/assets/2bacf78d-47f0-4145-90ab-1c2d7bcd8f7a)
 
@@ -50,7 +50,7 @@
 
 ## Local Authority
 
-**Categories:** 
+**Categories:** inspect source
 
 ![image](https://github.com/user-attachments/assets/93fe1b89-72b4-40f6-851b-1bedc2982840)
 
@@ -129,7 +129,7 @@
 
 ## dont-use-client-side
 
-**Categories:** 
+**Categories:** inspect source
 
 ![image](https://github.com/user-attachments/assets/0ec370d6-fa1e-45a3-811a-2427b215d489)
 **Note:** I just unscrambled this myself lol
