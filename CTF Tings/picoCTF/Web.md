@@ -22,7 +22,7 @@
 
 ## Intro to Burp
 
-**Categories:** MITM, SSRF
+**Categories:** MITM
 
 ![image](https://github.com/user-attachments/assets/287d3421-02bd-424f-b9f4-5b19fce72f7b)
 
@@ -117,7 +117,7 @@
 
 ## GET aHEAD
 
-**Categories:** MITM, SSRF
+**Categories:** MITM
 
 ![image](https://github.com/user-attachments/assets/d1db4c8e-834d-4d94-a511-69a52f616275)
 
