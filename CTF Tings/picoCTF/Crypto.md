@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/04f74f83-5109-4d66-abb8-ed608398bb12)![image](https://github.com/user-attachments/assets/591b7450-3169-464d-a02a-1065318bc744)![image](https://github.com/user-attachments/assets/569480de-e164-4b4c-a4f5-0122dc36acd0)![image](https://github.com/user-attachments/assets/371689bc-625f-47bc-a671-9eb21f63b23a)# Easy Challenges
+# Easy Challenges
 
 ## hashcrack
 
