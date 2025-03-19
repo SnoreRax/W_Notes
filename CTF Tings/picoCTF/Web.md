@@ -239,6 +239,18 @@ sudo cat ../../../../root/flag.txt
 
 **Flag:** picoCTF{c00k1e_m0nster_l0ves_c00kies_057BCB51}
 
+## head-dump
+
+**Categories:** web enumeration (not sure if that's the category it's under, I just kind of messed around with the website so ig it counts)
+
+![image](https://github.com/user-attachments/assets/d5d96ac6-2747-485b-afd4-2903e8e0db6c)
+
+![image](https://github.com/user-attachments/assets/450260f7-c27d-4e7a-979a-cdbb6590c9b2)
+
+![image](https://github.com/user-attachments/assets/ac59a179-08de-4ed7-b1fa-725586f51fc6)
+
+**Flag:** picoCTF{Pat!3nt_15_Th3_K3y_ad7ea5ae}
+
 # Medium Challenges
 
 ## Trickster
