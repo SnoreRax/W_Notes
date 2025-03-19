@@ -18,6 +18,8 @@ https://github.com/payloadbox/ssti-payloads
 
 # Some Commands for Tools (Compiled by me lmao)
 
+**Note:** There is cringe in these notes because it's mainly for me lmao
+
 **John the Ripper**
 
 https://www.notion.so/John-The-Ripper-Commands-11b675a946e480fb9ff0eddeeee15b25?pvs=4
