@@ -320,3 +320,26 @@ Password is again **' OR 1=1;--**
 ![image](https://github.com/user-attachments/assets/17e5745a-48b3-4020-8f65-d92244ecc36f)
 
 **Flag:** picoCTF{G3tting_5QL_1nJ3c7I0N_l1k3_y0u_sh0ulD_c8b7cc2a}
+
+## 3v@l
+
+**Categories:** pyjail
+
+![image](https://github.com/user-attachments/assets/e0575b37-0f62-4a13-bd0a-24895d5ad080)
+
+**Note:** I used this pyjail cheatsheet to get the job done:
+
+https://shirajuki.js.org/blog/pyjail-cheatsheet#good-to-know-built-in-functions-and-methods
+
+Specifically, this payload:
+
+```
+int(*open(chr(47) + "flag" + chr(46) + "txt"))
+```
+
+'/' and '.' needed to be encoded.
+
+![image](https://github.com/user-attachments/assets/aca28319-1775-48bc-9da8-baf890af3434)
+
+**Flag:** picoCTF{D0nt_Use_Unsecure_f@nctionsb95fffac}
+
