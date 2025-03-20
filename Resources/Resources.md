@@ -4,6 +4,10 @@
 
 https://tib3rius.com/sqli.html
 
+**Portswigger Cheatsheet:**
+
+https://portswigger.net/web-security/sql-injection/cheat-sheet
+
 # Pyjail
 
 **Pyjail Cheatsheet from Shirajuki:**
