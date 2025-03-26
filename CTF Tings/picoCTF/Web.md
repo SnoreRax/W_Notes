@@ -362,3 +362,17 @@ You know the drill from here
 ![image](https://github.com/user-attachments/assets/b6ab609e-72d6-4e75-8999-b4c27e48954a)
 
 **Flag:** picoCTF{sst1_f1lt3r_byp4ss_5b0b2f79}
+
+## findme
+
+**Categories:** Not sure :/ (URL thing)
+
+![image](https://github.com/user-attachments/assets/f105d005-2f20-4729-8f50-0be7f6f06971)
+
+![image](https://github.com/user-attachments/assets/96499be1-cc81-4759-8896-d9a99c513277)
+
+![image](https://github.com/user-attachments/assets/faf84e59-6bff-4ebb-9cd9-47f7fefba979)
+
+**Btw** this was after logging in with the provided credentials, the URL's just whizzed by like that so yeh.
+
+**Flag:** picoCTF{proxies_all_the_way_df44c94c}
