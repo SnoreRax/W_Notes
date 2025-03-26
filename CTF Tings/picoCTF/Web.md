@@ -376,3 +376,11 @@ You know the drill from here
 **Btw** this was after logging in with the provided credentials, the URL's just whizzed by like that so yeh.
 
 **Flag:** picoCTF{proxies_all_the_way_df44c94c}
+
+## SOAP
+
+**Categories:** XXE (XML eXternal Entity) attack
+
+![image](https://github.com/user-attachments/assets/54c1132d-44c6-4509-8a89-cae057755a4d)
+
+**Flag:** picoCTF{XML_3xtern@l_3nt1t1ty_0dcf926e}
