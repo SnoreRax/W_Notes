@@ -20,6 +20,10 @@ https://shirajuki.js.org/blog/pyjail-cheatsheet#good-to-know-built-in-functions-
 
 https://github.com/payloadbox/ssti-payloads
 
+# Command Injection (Mostly via URL I think)
+
+https://github.com/payloadbox/command-injection-payload-list
+
 # Some Commands for Tools (Compiled by me lmao)
 
 **Note:** There is cringe in these notes because it's mainly for me lmao
