@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a02e3df0-23e6-4d69-a493-24066679c18e)# Problem
+# Problem
 
 ![image](https://github.com/user-attachments/assets/ceed0dcb-2818-4eea-a02f-5c4799d80bfc)
 
