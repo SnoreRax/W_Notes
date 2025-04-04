@@ -2,12 +2,12 @@
 
 ## Easy
 
-[**Basic Pentesting**](/basic-pentesting/writeup.md)
+[**Basic Pentesting**](/Basic-Pentesting/Writeup.md)
 
 **Kenobi**
 
 **RootMe**
 
-[**Pickle Rick**](/pickle-rick/writeup.md)
+[**Pickle Rick**](/Pickle-Rick/Writeup.md)
 
 **UA High School**
