@@ -4,7 +4,7 @@
 
 # Solution
 
-### Step 1: Reconnaissance
+## Step 1: Reconnaissance
 
 **Command Used:**
 
@@ -16,9 +16,9 @@ nmap -sCV -A -T4 [IP address]
 
 ![image](https://github.com/user-attachments/assets/73d33630-f463-46e2-8a5d-76222fb037e6)
 
-### Step 2: Enumeration
+## Step 2: Enumeration
 
-#### Fuzzing
+### Fuzzing
 
 **Command Used:**
 
@@ -32,7 +32,7 @@ gobuster dir -u [Website] -w /usr/share/wordlists/dirb/common.txt -x php,html,js
 
 ![image](https://github.com/user-attachments/assets/b5ed2129-038f-44a4-b1f8-22340665e59a)
 
-#### Scouting Website
+### Scouting Website
 
 Found this:
 
@@ -50,7 +50,7 @@ So now we have this:
 
 ![image](https://github.com/user-attachments/assets/9ca67d67-6fb6-4fb3-8c13-55834b13ddad)
 
-### Step 3: Exploitation
+## Step 3: Exploitation
 
 **Commands Used:**
 
