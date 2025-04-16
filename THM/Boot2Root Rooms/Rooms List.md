@@ -11,3 +11,5 @@
 [**Pickle Rick**](Pickle%20Rick/Writeup.md)
 
 **UA High School**
+
+**Blue**
