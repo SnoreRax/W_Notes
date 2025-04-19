@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/0099aa9a-31ee-47ba-b53c-9a0c495f3353)# Tasks
+# Tasks
 
 1. [Reconnaissance](#reconnaissance)
 2. [Getting a shell](#getting-a-shell)
