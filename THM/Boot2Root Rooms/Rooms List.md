@@ -6,7 +6,7 @@
 
 **Kenobi**
 
-[**RootMe**](Root%20Me/Writeup.md)
+[**Root Me**](Root%20Me/Writeup.md)
 
 [**Pickle Rick**](Pickle%20Rick/Writeup.md)
 
