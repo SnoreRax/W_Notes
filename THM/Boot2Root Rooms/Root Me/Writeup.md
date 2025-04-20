@@ -1,16 +1,16 @@
 # Tasks
 
-1. [Reconnaissance](#reconnaissance)
-2. [Getting a shell](#getting-a-shell)
-3. [Privilege Escalation](#privilege-escalation)
+1. [**Reconnaissance**](#reconnaissance)
+2. [**Getting a shell**](#getting-a-shell)
+3. [**Privilege Escalation**](#privilege-escalation)
 
-## Reconnaissance
+# Reconnaissance
 
-### Problems
+## Problems
 
 ![image](https://github.com/user-attachments/assets/9de237a6-a043-4d38-b70f-364572439cc8)
 
-### Results
+## Results
 
 **Nmap Scan:**
 
@@ -20,7 +20,7 @@
 
 ![image](https://github.com/user-attachments/assets/7e07078b-3272-4fd8-8709-8ddc8d6d5c9d)
 
-### Answers
+## Answers
 
 1. **2**
 2. **2.4.29**
@@ -28,13 +28,13 @@
 4. N/A
 5. **/panel/**
 
-## Getting a shell
+# Getting a shell
 
-### Problem
+## Problem
 
 ![image](https://github.com/user-attachments/assets/b7552d78-29c1-45d9-9091-e0f9a1805846)
 
-### Results
+## Results
 
 ![image](https://github.com/user-attachments/assets/2a24ece1-2773-4af7-a237-0532785ad049)
 
@@ -48,17 +48,17 @@ Source: **BurpSuite Intruder**(Sniper Payload on _.php_ testing all the other ex
 
 ![image](https://github.com/user-attachments/assets/1a0545aa-71c9-4417-b2b9-94d1e1168972)
 
-### Answer
+## Answer
 
 1. **THM{y0u_g0t_a_sh3ll}**
 
-## Privilege escalation
+# Privilege escalation
 
-### Problems
+## Problems
 
 ![image](https://github.com/user-attachments/assets/b8552afe-ffe2-4b75-bea6-e4041130de91)
 
-### Results
+## Results
 
 ![image](https://github.com/user-attachments/assets/e9d93996-df5f-45d5-9da1-643825eeebeb)
 
@@ -66,7 +66,7 @@ Source: **BurpSuite Intruder**(Sniper Payload on _.php_ testing all the other ex
 
 ![image](https://github.com/user-attachments/assets/1d79a07d-8590-4c3a-8d89-f8df2fa95312)
 
-### Answers
+## Answers
 
 1. **/usr/bin/python**
 2. N/A
