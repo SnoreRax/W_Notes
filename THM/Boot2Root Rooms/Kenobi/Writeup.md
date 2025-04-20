@@ -3,7 +3,7 @@
 1. [**Deploy the Vulnerable Machine**](#deploy-the-vulnerable-machine)
 2. [**Enumerating Samba for shares**](#enumerating-samba-for-shares)
 3. [**Gain initial access with ProFtpd**](#gain-initial-access-with-proftpd)
-4. [**Privilege Escalation with Path Variable Manipulation**](#privilege-escalation-with-path-variable-escalation)
+4. [**Privilege Escalation with Path Variable Manipulation**](#privilege-escalation-with-path-variable-manipulation)
 
 # Deploy the Vulnerable Machine
 
