@@ -4,7 +4,7 @@
 
 [**Basic Pentesting**](Basic%20Pentesting/Writeup.md)
 
-**Kenobi**
+[**Kenobi**](Kenobi/Writeup.md)
 
 [**Root Me**](Root%20Me/Writeup.md)
 
