@@ -4,6 +4,6 @@
 
 # Solution
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/d6ea0a3b-cb1d-4351-b990-3f08225f311f)
 
 _**yes**_
