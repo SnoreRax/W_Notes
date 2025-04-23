@@ -10,6 +10,8 @@
 
 ![image](https://github.com/user-attachments/assets/ca3d79a0-6bef-4fcb-8393-152b99a18e30)
 
+![image](https://github.com/user-attachments/assets/36cf68a8-bf1f-495d-8e16-795b48ec0d6d)
+
 Btw, if you've noticed, the comment looks different.
 
 **Important Note:** Really take note of the _SQL version_ you're using, it cucked me over for a while cuz I was using _--_ instead of _#_ for comments lmao.
