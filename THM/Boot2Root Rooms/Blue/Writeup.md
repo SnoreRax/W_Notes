@@ -4,7 +4,7 @@
 2. [**Gain Access**](#gain-access)
 3. [**Escalate**](#escalate)
 4. [**Cracking**](#cracking)
-5. [**Find flags!**](#find-flags!)
+5. [**Find flags**](#find-flags)
 
 # Recon
 
@@ -120,7 +120,7 @@ So we resort to an online NTLM Hash Cracker
 
 P.S. Still salty af abt john not working
 
-# Find flags!
+# Find flags
 
 ## Problems and Answers
 
