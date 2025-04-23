@@ -12,4 +12,4 @@
 
 **UA High School**
 
-**Blue**
+[**Blue**](Blue/Writeup.md)
