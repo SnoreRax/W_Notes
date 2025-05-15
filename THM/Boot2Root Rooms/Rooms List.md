@@ -2,6 +2,8 @@
 
 ## Easy
 
+**Note:** Make a short description for each of these rooms to not get lost
+
 [**Basic Pentesting**](Basic%20Pentesting/Writeup.md)
 
 [**Kenobi**](Kenobi/Writeup.md)
