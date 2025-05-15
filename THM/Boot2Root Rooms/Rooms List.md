@@ -2,7 +2,8 @@
 
 ## Easy
 
-**Note:** Make a short description for each of these rooms to not get lost
+**Note:** Make a short description for each of these rooms to not get lost. Also add in these sections
+so the writeups don't look so dull: tools used, skills used (and maybe a summary).
 
 [**Basic Pentesting**](Basic%20Pentesting/Writeup.md)
 
