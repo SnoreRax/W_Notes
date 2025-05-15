@@ -19,7 +19,7 @@
 - nmap
 - metasploit
 
-# Skills used:
+# Skills used
 
 - Exploitation and privilege escalation via Metasploit
 
