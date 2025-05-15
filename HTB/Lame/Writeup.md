@@ -14,6 +14,15 @@
 
 [**User & Root Flag**](#flags)
 
+# Tools Used
+
+- nmap
+- metasploit
+
+# Skills used:
+
+- Exploitation and privilege escalation via Metasploit
+
 # Solutions
 
 ## Task 1
