@@ -12,7 +12,7 @@
 
 [**Exploiting CVE-2007-2447 returns a shell as which user?**](#task-6)
 
-[**User & Root Flag**](#user-&-root-flag)
+[**User & Root Flag**](#flags)
 
 # Solutions
 
@@ -80,7 +80,11 @@ Anyways, here.
 
 **Answer: root**
 
-## User & Root Flag
+## Flags
+
+After exploitation:
+
+![image](https://github.com/user-attachments/assets/489edd27-45fb-43be-a951-8e5b84289d18)
 
 **User: 9176578a162d09f0f55fbb8b6157e680**
 
