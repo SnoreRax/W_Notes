@@ -2,4 +2,4 @@
 
 ## Easy
 
-[**Lame**](#Lame/Writeup.md)
+[**Lame**](Lame/Writeup.md)
