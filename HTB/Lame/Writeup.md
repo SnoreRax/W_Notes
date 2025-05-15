@@ -1,11 +1,17 @@
 # Tasks
 
 [**How many of the nmap top 1000 TCP ports are open on the remote host?**](#task-1)
+
 [**What version of VSFTPd is running on Lame?**](#task-2)
+
 [**There is a famous backdoor in VSFTPd version 2.3.4, and a Metasploit module to exploit it. Does that exploit work here?**](#task-3)
+
 [**What version of Samba is running on Lame? Give the numbers up to but not including "-Debian".**](#task-4)
-[**What 2007 CVE allows for remote code execution in this version of Samba via shell metacharacters involving the SamrChangePassword function when the "username map script" option is enabled in smb.conf?**](#task-4)
+
+[**What 2007 CVE allows for remote code execution in this version of Samba via shell metacharacters involving the SamrChangePassword function when the "username map script" option is enabled in smb.conf?**](#task-5)
+
 [**Exploiting CVE-2007-2447 returns a shell as which user?**](#task-6)
+
 [**User & Root Flag**](#user-&-root-flag)
 
 # Solutions
