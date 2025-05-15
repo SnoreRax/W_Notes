@@ -60,7 +60,7 @@ Search in _metasploit_ again (it's an old _CVE_, it should be there):
 
 ![image](https://github.com/user-attachments/assets/cf97ea4b-3da1-4a75-a55f-93a54a0c344e)
 
-And it's _RCE_ too, but I forgot that doesn't give the full _CVE_ name so...
+And it's _RCE_ too, but I forgot that doesn't give the full _CVE_ ID so...
 
 ![image](https://github.com/user-attachments/assets/cec19eff-d61f-462d-9939-16d3099d6a3d)
 
