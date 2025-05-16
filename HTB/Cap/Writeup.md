@@ -1,13 +1,21 @@
 # Tasks
 
 [**How many TCP ports are open?**](#task-1)
+
 [**After running a "Security Snapshot", the browser is redirected to a path of the format ```/something/id```, where ```id``` represents the id number of the scan. What is the ```something```?**](#task-2)
+
 [**Are you able to get to other users' scans?**](#task-3)
+
 [**What is the ID of the PCAP file that contains sensative data?**](#task-4)
+
 [**Which application layer protocol in the pcap file can the sensetive data be found in?**](#task-5)
+
 [**We've managed to collect nathan's FTP password. On what other service does this password work?**](#task-6)
+
 [**User Flag**](#user-flag)
+
 [**What is the full path to the binary on this machine has special capabilities that can be abused to obtain root privileges?**](#task-8)
+
 [**Root Flag**](#root-flag)
 
 # Tools Used
