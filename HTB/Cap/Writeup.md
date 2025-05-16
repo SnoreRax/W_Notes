@@ -25,7 +25,9 @@
 
 # Skills used
 
-- 
+- Exploiting _IDOR_
+- Little bit of forensics (checking _pcap_ traffic for credentials, pretty much it lmao)
+- Searching for files with _SUID_ bit set and exploiting that
 
 # Solutions
 
