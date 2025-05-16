@@ -6,6 +6,8 @@
 
 **XSS**
 
+**IDOR**
+
 # Enumeration
 
 **Linpeas**
