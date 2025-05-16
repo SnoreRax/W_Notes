@@ -24,11 +24,13 @@
 
 - nmap
 - snmp-check
+- john
 
 # Skills Used/Learned
 
 - SNMP Enumeration
 - OSINT (for docs)
+- Hash Cracking
 - Even more OSINT (also for docs, but this time for privilege escalation)
 
 # Solution
