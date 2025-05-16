@@ -10,6 +10,6 @@
 
 # Enumeration
 
-**Linpeas**
+[**Linpeas**](Linpeas/Notes.md)
 
-**Some useful commands**
+[**Some useful commands**](Commands/Notes.md)
