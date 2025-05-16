@@ -5,3 +5,9 @@
 **SQLi**
 
 **XSS**
+
+# Enumeration
+
+**Linpeas**
+
+**Some useful commands**
