@@ -11,3 +11,13 @@ Also, if you need to (since I usually do this to find vulnerable binaries), you 
 ```
 find /usr/bin -user root -perm -4000 2>/dev/null
 ```
+
+# Privilege Escalation
+
+## Sudo Strats
+
+If you use ```sudo -l```, and find that you can run any command but as another user, do this:
+
+```sudo -u [other user] bash -i or /bin/bash```
+
+That way, you get a session as that user instead.
