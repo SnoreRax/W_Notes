@@ -12,7 +12,7 @@
 
 [**Underpass**](Underpass/Writeup.md)
 
-**Description:** 
+**Description:** _SNMP_ enumeration, _OSINT_ for docs, hash cracking, and many more tbh
 
 [**Bashed**](Based/Writeup.md)
 
