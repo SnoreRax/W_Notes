@@ -14,6 +14,6 @@
 
 **Description:** _SNMP_ enumeration, _OSINT_ for docs, hash cracking, and many more tbh
 
-[**Bashed**](Based/Writeup.md)
+[**Bashed**](Bashed/Writeup.md)
 
 **Description:** Directory fuzzing to exploiting a vulnerable _bash_ on a website, mostly
