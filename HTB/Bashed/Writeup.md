@@ -24,6 +24,7 @@
 # Skills Used
 
 - Directory fuzzing
+- Python scripting (script kiddie moment tho lmao)
 
 # Solutions
 
