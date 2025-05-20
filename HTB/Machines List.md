@@ -13,3 +13,7 @@
 [**Underpass**](Underpass/Writeup.md)
 
 **Description:** 
+
+[**Bashed**](Based/Writeup.md)
+
+**Description:** Directory fuzzing to exploiting a vulnerable _bash_ on a website, mostly
