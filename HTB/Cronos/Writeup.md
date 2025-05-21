@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/af5527ad-6bb7-4c9a-87cb-d4a16eaab9d4)# Tasks
+# Tasks
 
 [**1. How many TCP ports are listening on Cronos?**](#task-1)
 
@@ -12,7 +12,7 @@
 
 [**6. What is the full path to the file passed to php in a cronjob that runs every minute as the root user?**](#task-6)
 
-[**7. **](#task-7)
+[**7. Does www-data have write permissions on the artisan binary?**](#task-7)
 
 [**8. Root Flag**](#root-flag)
 
@@ -20,10 +20,16 @@
 
 - nmap
 - dig
+- nc
+- linpeas
 
 # Skills Used
 
--
+- DNS Enumeration
+- Basic SQLi
+- Command Injection
+- Automated system enumeration (via linpeas)
+- Cronjob Abuse (idk if that's what it's called but yeah)
 
 # Solutions
 
@@ -47,8 +53,9 @@ First off, let's put that domain name into _/etc/hosts_, like so:
 
 We can add the subdomains to it later.
 
-Anyways, the next part took me about 30 minutes, but with [this](https://medium.com/disruptive-labs/a-penetration-testers-guide-to-sub-domain-enumeration-7d842d5570f6) and [this](https://www.acunetix.com/blog/articles/dns-zone-transfers-axfr/),
-I got a lead on what I could do to conduct the subdomain enumeration.
+Anyways, the next part took me about 30 minutes, but with [this](https://medium.com/disruptive-labs/a-penetration-testers-guide-to-sub-domain-enumeration-7d842d5570f6) and [this](https://www.acunetix.com/blog/articles/dns-zone-transfers-axfr/), I got a lead on what I could do to conduct the subdomain enumeration.
+
+**Disclaimer:** It took me 30 minutes cuz I was trying to use _dns.nse_ scripts for _nmap_ for sudomain enumeration.
 
 This is new for me so I'll explain in detail as best as I can.
 
@@ -155,3 +162,41 @@ And yes, I only did it after to show that it was clean lol.
 
 ## Task 6
 
+I got too lazy to enumerate it myself, but hey, why should I when I got _linpeas_?
+
+Just run a _http server_ on my main machine with _python_ in the directory with _linpeas_ (yes, I have a dedicated directory for that lmao), use ```wget``` in _/tmp_ on the victim machine to get it,
+run ```chmod +x``` on the file we got so that we can actually run it, then boom, auto enumeration.
+
+![image](https://github.com/user-attachments/assets/ad7db112-d8fd-49db-beb5-a28950423024)
+
+Just gotta love how _linpeas_ highlights very potentially interesting stuff about the system.
+
+**Answer: /var/www/laravel/artisan**
+
+## Task 7
+
+![image](https://github.com/user-attachments/assets/c4962aa1-5d0f-4a94-8700-778b35560b8e)
+
+Yes, yes it does.
+
+**Answer: yes**
+
+## Root Flag
+
+Knowing that, we can probably do what we did in [**Bashed**](../../Bashed/Writeup.md) and change the contents of the file to execute a reverse shell instead.
+
+Back to [**here**](https://www.revshells.com) again lmao (this time we need php).
+
+I'd show the script I selected but it's really long, so instead, I'll just say that I used _PHP Pentestmonkey's_ script.
+
+Anyways, after _touching_ a new file named _artisan2_, and using _nano_ to paste the script there, I copied the contents of _artisan2_ into _artisan_.
+
+Why didn't I just replace the code inside _artisan_ directly? Simple, it's a pain in the ass for me to use _nano_ on a reverse shell, even if it's stabilized lol.
+
+![image](https://github.com/user-attachments/assets/3b4b2068-8432-4d18-a16c-b2f7c678e97c)
+
+Anyways, after just 2 seconds of copying _artisan2_ into _artisan_, I got a shell from my _netcat_ listener, and got the flag.
+
+![image](https://github.com/user-attachments/assets/d9f10801-ae39-4056-8b8c-ca274f2aabb6)
+
+**Answer: 3e2817833a9a977bf0a3ebe71bb955be**
