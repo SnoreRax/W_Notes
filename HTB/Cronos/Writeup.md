@@ -183,7 +183,7 @@ Yes, yes it does.
 
 ## Root Flag
 
-Knowing that, we can probably do what we did in [**Bashed**](../../Bashed/Writeup.md) and change the contents of the file to execute a reverse shell instead.
+Knowing that, we can probably do what we did in [**Bashed**](../Bashed/Writeup.md) and change the contents of the file to execute a reverse shell instead.
 
 Back to [**here**](https://www.revshells.com) again lmao (this time we need php).
 
