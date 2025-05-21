@@ -1,24 +1,24 @@
 # Tasks
 
-[**How many open TCP ports are listening on UnderPass?**](#task-1)
+[**1. How many open TCP ports are listening on UnderPass?**](#task-1)
 
-[**What UDP port in the nmap top 100 ports is open on UnderPass?**](#task-2)
+[**2. What UDP port in the nmap top 100 ports is open on UnderPass?**](#task-2)
 
-[**What email address does the UnderPass server list as it's contact email?**](#task-3)
+[**3. What email address does the UnderPass server list as it's contact email?**](#task-3)
 
-[**What is the name of the application hosted on the UnderPass webserver?**](#task-4)
+[**4. What is the name of the application hosted on the UnderPass webserver?**](#task-4)
 
-[**What is the relative path on the webserver for the operator login page for daloRADIUS?**](#task-5)
+[**5. What is the relative path on the webserver for the operator login page for daloRADIUS?**](#task-5)
 
-[**What is the password for the administrator user on the daloRADIUS application?**](#task-6)
+[**6. What is the password for the administrator user on the daloRADIUS application?**](#task-6)
 
-[**What is the clear text password of the svcMosh user on UnderPass?**](#task-7)
+[**7. What is the clear text password of the svcMosh user on UnderPass?**](#task-7)
 
-[**User Flag**](#user-flag)
+[**8. User Flag**](#user-flag)
 
-[**What is the full path of the command that the svcMosh user can run as any user?**](#task-9)
+[**9. What is the full path of the command that the svcMosh user can run as any user?**](#task-9)
 
-[**Root Flag**](#root-flag)
+[**10. Root Flag**](#root-flag)
 
 # Tools Used
 
