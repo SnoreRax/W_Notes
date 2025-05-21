@@ -1,20 +1,20 @@
 # Tasks
 
-[**How many open TCP ports are listening on Bashed?**](#task-1)
+[**1. How many open TCP ports are listening on Bashed?**](#task-1)
 
-[**What is the relative path on the webserver to a folder that contains phpbash.php?**](#task-2)
+[**2. What is the relative path on the webserver to a folder that contains phpbash.php?**](#task-2)
 
-[**What user is the webserver running as on Bashed?**](#task-3)
+[**3. What user is the webserver running as on Bashed?**](#task-3)
 
-[**User Flag**](#user-flag)
+[**4. User Flag**](#user-flag)
 
-[**www-data can run any command as a user without a password. What is that user's username?**](#task-5)
+[**5. www-data can run any command as a user without a password. What is that user's username?**](#task-5)
 
-[**What folder in the system root can scriptmanager access that www-data could not?**](#task-6)
+[**6. What folder in the system root can scriptmanager access that www-data could not?**](#task-6)
 
-[**What is filename of the file that is being run by root every couple minutes?**](#task-7)
+[**7. What is filename of the file that is being run by root every couple minutes?**](#task-7)
 
-[**Root Flag**](#root-flag)
+[**8. Root Flag**](#root-flag)
 
 # Tools Used
 
