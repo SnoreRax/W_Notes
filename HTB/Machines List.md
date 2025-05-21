@@ -17,3 +17,9 @@
 [**Bashed**](Bashed/Writeup.md)
 
 **Description:** Directory fuzzing to exploiting a vulnerable _bash_ on a website, mostly
+
+## Medium
+
+[**Cronos**](Cronos/Writeup.md)
+
+**Description:** DNS enumeration, basic SQLi, command injection, cronjob abuse, basically a lot of stuff
