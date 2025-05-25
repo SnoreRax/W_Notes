@@ -18,6 +18,10 @@
 
 **Description:** Directory fuzzing to exploiting a vulnerable _bash_ on a website, mostly
 
+[**Shocker**](Shocker/Writeup.md)
+
+**Description:** Directory fuzzing then file fuzzing in directory, old CVE exploitation, abusing misconfigured permissions for root
+
 ## Medium
 
 [**Cronos**](Cronos/Writeup.md)
