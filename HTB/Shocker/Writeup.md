@@ -27,6 +27,8 @@
 # Skills Used
 
 - Enumeration for directories and files within directories
+- CVE Exploitation using Metasploit Framework
+- Privilege Escalation via misconfigured bin permissions
 
 # Solutions
 
