@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/c1b20d21-f971-40d3-ac25-e386f71b97aa)# Tasks
+# Tasks
 
 [**1. How many TCP ports are listening on Shocker?**](#task-1)
 
