@@ -22,6 +22,10 @@
 
 **Description:** Directory fuzzing then file fuzzing in directory, old CVE exploitation, abusing misconfigured permissions for root
 
+[**Beep**](Beep/Writeup.md)
+
+**Description:** CVE Exploitation, LFI Vulnerability, Stealing Credentials
+
 ## Medium
 
 [**Cronos**](Cronos/Writeup.md)
