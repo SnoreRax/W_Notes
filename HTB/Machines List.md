@@ -31,3 +31,7 @@
 [**Cronos**](Cronos/Writeup.md)
 
 **Description:** DNS enumeration, basic SQLi, command injection, cronjob abuse, basically a lot of stuff
+
+[**Popcorn**](Popcorn/Writeup.md)
+
+**Description:** Directory fuzzing, exploiting file upload vulnerabilities (**Spoilers:** it wasn't the _torrent_ directly), exploiting old CVEs
