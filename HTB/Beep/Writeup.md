@@ -167,4 +167,20 @@ Just use the image above lmao.
 
 **Answer: 57511767180a4596cbb05da8d72f3b9d**
 
-## Beyond Root (TBC)
+## Beyond Root
+
+**There are many other ways to root Beep. These questions after the root flag are hints to help identify them. What is the 2012 CVE ID for pre-authentication remote code execution vulnerablity in FreePBX / Elastix?**
+
+So for this, I initially used _searchsploit_ to see which exploits are listed:
+
+![image](https://github.com/user-attachments/assets/8767a36d-fe3d-43ab-bf96-20ab68894f51)
+
+After finding that, I used _ExploitDB_ to find the _CVE_ id:
+
+![image](https://github.com/user-attachments/assets/219f3b12-e29b-4616-af4f-ebc48f180e12)
+
+Yeah that's pretty much it.
+
+**Answer: CVE-2012-4869**
+
+Anyways, I'm stopping here for now, there's still 3 other questions but I'd rather do another machine first lmao.
