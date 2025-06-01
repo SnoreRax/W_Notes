@@ -90,4 +90,4 @@ Run that, and the flag is yours.
 
 **Time Completed In: 14:55**
 
-<img src="https://github.com/user-attachments/assets/110995da-1b92-4df5-8667-7d13dbbe54bf" width="200" height="300">
+<img src="https://github.com/user-attachments/assets/110995da-1b92-4df5-8667-7d13dbbe54bf" width="200" height="400">
