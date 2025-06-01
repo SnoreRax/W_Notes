@@ -26,6 +26,10 @@
 
 **Description:** CVE Exploitation, LFI Vulnerability, Stealing Credentials
 
+[**Knife**](Knife/Writeup.md)
+
+**Description:** Abuse PHP version with existing scripts, abuse misconfigured _knife_ bin
+
 ## Medium
 
 [**Cronos**](Cronos/Writeup.md)
