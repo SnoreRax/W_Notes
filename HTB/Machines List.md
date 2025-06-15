@@ -30,6 +30,10 @@
 
 **Description:** Abuse PHP version with existing scripts, abuse misconfigured _knife_ bin
 
+[**Nibbles**](Nibbles/Writeup.md)
+
+**Description:** Recursive directory enumeration, credential stealing (and guessing lol), CVE exploitation, and abusing misconfigured files
+
 ## Medium
 
 [**Cronos**](Cronos/Writeup.md)
