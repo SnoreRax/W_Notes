@@ -34,6 +34,10 @@
 
 **Description:** Recursive directory enumeration, credential stealing (and guessing lol), CVE exploitation, and abusing misconfigured files
 
+[**Greenhorn**](Greenhorn/Writeup.md)
+
+**Description:** Hash cracking, outdated service version exploitation, file exfiltration, deobfuscation of pixelated text
+
 ## Medium
 
 [**Cronos**](Cronos/Writeup.md)
