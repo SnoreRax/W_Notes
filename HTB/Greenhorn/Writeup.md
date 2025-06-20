@@ -12,7 +12,7 @@
 
 [**6. What is the junior user's password on Greenhorn?**](#task-6)
 
-[**7. User Flag**](#task-7)
+[**7. User Flag**](#user-flag)
 
 [**8. Besides the user flag, what is the name of the other document in the junior user's home directory?**](#task-8)
 
