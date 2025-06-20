@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/dcae626e-085d-4f85-8529-865553ba3202)# Tasks
+# Tasks
 
 [**1. How many TCP ports are listening on PermX?**](#task-1)
 
