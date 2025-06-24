@@ -38,6 +38,10 @@
 
 **Description:** Hash cracking, outdated service version exploitation, file exfiltration, deobfuscation of pixelated text
 
+[**Boardlight**](Boardlight/Writeup.md)
+
+**Description:** Subdomain enumeration, finding and abusing default credentials, CVE exploitation (two CVEs btw)
+
 ## Medium
 
 [**Cronos**](Cronos/Writeup.md)
