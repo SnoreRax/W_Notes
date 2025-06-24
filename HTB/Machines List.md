@@ -42,6 +42,10 @@
 
 **Description:** Subdomain enumeration, finding and abusing default credentials, CVE exploitation (two CVEs btw)
 
+[**Precious**](Precious/Writeup.md)
+
+**Description:** cURL stuff, metadata gathering, CVE exploitation, abusing misconfigured binaries
+
 ## Medium
 
 [**Cronos**](Cronos/Writeup.md)
