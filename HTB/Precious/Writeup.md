@@ -14,7 +14,7 @@
 
 [**7. Which command can henry run with sudo, without providing a password?**](#task-7)
 
-[**8. **](#task-8)
+[**8. Which is the name of the file that allows for user-controlled input to the update_dependencies.rb script?**](#task-8)
 
 [**9. Root Flag**](root-flag)
 
