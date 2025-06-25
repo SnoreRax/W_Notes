@@ -2,14 +2,14 @@
 
 # Exploits
 
-**SQLi**
+**1.** **SQLi**
 
-**XSS**
+**2.** **XSS**
 
-**IDOR**
+**3.** **IDOR**
 
 # Enumeration
 
-[**Linpeas**](Linpeas/Notes.md)
+**1.** [**Linpeas**](Linpeas/Notes.md)
 
-[**Some useful commands**](Commands/Notes.md)
+**2.** [**Some useful commands**](Commands/Notes.md)
