@@ -6,7 +6,7 @@
 
 **2.** **XSS**
 
-**3.** **IDOR**
+**3.** [**IDOR**](IDOR/Notes.md)
 
 # Enumeration
 
@@ -16,4 +16,6 @@
 
 # Privilege Escalation
 
-**1.** [**Sudo**](Sudo/Notes.md)
+**1.** [**General**](General/Notes.md)
+
+**2.** [**Sudo**](Sudo/Notes.md)
