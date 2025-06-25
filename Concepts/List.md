@@ -12,4 +12,8 @@
 
 **1.** [**Linpeas**](Linpeas/Notes.md)
 
-**2.** [**Some useful commands**](Commands/Notes.md)
+**2.** [**Target Enumeration**](Commands/Notes.md)
+
+# Privilege Escalation
+
+**1. ** [**Sudo**](Sudo/Notes.md)
