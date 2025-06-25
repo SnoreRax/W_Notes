@@ -16,4 +16,4 @@
 
 # Privilege Escalation
 
-**1. ** [**Sudo**](Sudo/Notes.md)
+**1.** [**Sudo**](Sudo/Notes.md)
