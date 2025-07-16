@@ -46,6 +46,10 @@
 
 **Description:** cURL stuff, metadata gathering, CVE exploitation, abusing misconfigured binaries
 
+[**Sense**](Sense/Writeup.md)
+
+**Description:** Ffuf with a REALLY big wordlist, Metasploit things
+
 ## Medium
 
 [**Cronos**](Cronos/Writeup.md)
