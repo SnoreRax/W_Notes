@@ -2,7 +2,13 @@
 
 [**1. How many TCP ports are open on SwagShop?**](#task-1)
 
-[**2. **]
+[**2. What is the name of the eCommerce Software being used by the website?**](#task-2)
+
+[**3. Which version of Magento is in use?**](#task-3)
+
+[**4. The Magento Shoplift vulnerability can be used to change the credentials of what user?**](#task-4)
+
+[**5. There are multiple different methods to use this admin access to get remote code execution on SwagShop through Magento. What user is the web server running the site as?**](#task-5)
 
 # Tools Used
 
@@ -69,3 +75,9 @@ Now I can use that to login:
 
 Still need to find a way to get a foothold though.
 
+Anyways, I tried to use the **Magento CE < 1.9.0.1 - (Authenticated) Remote Code Execution** exploit I found using _searchsploit_, and even searched writeups on how to use that since mine kept breaking. But then,
+I came to the unfortunate conclusion that I can't really use it cuz Python is bloody broken on my Kali machine :/
+
+So, I went to search for another method to keep myself sane.
+
+In another writeup
