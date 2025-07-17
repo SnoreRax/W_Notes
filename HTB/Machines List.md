@@ -50,6 +50,10 @@
 
 **Description:** Ffuf with a REALLY big wordlist, Metasploit things
 
+[**Swagshop**](Swagshop/Writeup.md)
+
+**Description:** Directory fuzzing with gobuster, CVE exploitation, file upload exploitation, abuse misconfigured _vi_ bin
+
 ## Medium
 
 [**Cronos**](Cronos/Writeup.md)
