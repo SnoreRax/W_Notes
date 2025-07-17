@@ -10,6 +10,12 @@
 
 [**5. There are multiple different methods to use this admin access to get remote code execution on SwagShop through Magento. What user is the web server running the site as?**](#task-5)
 
+[**6. User Flag**](#task-6)
+
+[**7. Which binary can www-data run as root without a password?**](#task-7)
+
+[**8. Root Flag**](#root-flag)
+
 # Tools Used
 
 - nmap
@@ -17,7 +23,10 @@
 
 # Skills Used
 
-- 
+- Directory fuzzing
+- CVE exploitation for initial access
+- File upload exploitation
+- Abusing misconfigured binaries
 
 # Solutions
 
@@ -80,4 +89,47 @@ I came to the unfortunate conclusion that I can't really use it cuz Python is bl
 
 So, I went to search for another method to keep myself sane.
 
-In another writeup
+In another writeup by [**0xRick**](https://0xrick.github.io/hack-the-box/swagshop/), I found that you could just enable _symlinks_ and do a classic _PNG File Upload Attack_ to get reverse shell. Refer to the writeup for more details, I'm just relieved that I finally got in lmao.
+
+<img width="881" height="267" alt="image" src="https://github.com/user-attachments/assets/0f872dda-46f7-4ac4-904e-46359a1ba662" />
+
+There we are.
+
+**Answer: www-data**
+
+## User Flag
+
+<img width="353" height="262" alt="image" src="https://github.com/user-attachments/assets/eef1a682-dba7-4327-a7d5-655a5ee35129" />
+
+Here you go.
+
+**Answer: 6ce151034c59bee3d8ac4ec8af657b7a**
+
+## Task 7
+
+Ok first, I'm just gonna stabilize the shell real quick.
+
+```
+1. python3 -c 'import pty;pty.spawn("/bin/bash")'
+2. export TERM=xterm
+3. CTRL + Z
+4. stty raw -echo;fg
+```
+
+Much better. Anyways, let's just run ```sudo -l``` for this.
+
+<img width="746" height="131" alt="image" src="https://github.com/user-attachments/assets/7ecd05d9-9b56-491d-b5d6-1b91d315457b" />
+
+And there we go.
+
+**Answer: vi**
+
+## Root Flag
+
+Just go [**here**](https://gtfobins.github.io/gtfobins/vi/#sudo) for the exploit lol. Or you can refer to the screenshot down here.
+
+<img width="644" height="96" alt="image" src="https://github.com/user-attachments/assets/7baa8249-144d-4626-baf9-b526d3fdce65" />
+
+Anyways.
+
+**Answer: 4ac3b4b0ad0560bfe98d4face4d47273**
