@@ -25,6 +25,7 @@
 
 - Source code inspection
 - Using BurpSuite to intercept and change requests
+- Blind command injection
 - Abusing misconfigured PATH variable
 
 # Solutions
