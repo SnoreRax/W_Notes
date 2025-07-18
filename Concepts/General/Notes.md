@@ -19,7 +19,7 @@ Should be pretty self-explanatory.
 ## Abusing misconfigured PATH variable
 
 ```
-PATH=/tmp:%PATH
+PATH=/tmp:$PATH
 ```
 
 That's the basic concept of how to abuse it. I don't fully understand the logic, but essentially, if a file (preferably with privileged access) does not have an absolute file path, you can make a temporary file (hence, **/tmp** being used in the file path since I usually do it there) that gives you a shell, set execute permissions for it, then reference that **PATH** before the file that actually has the escalated privileges, then it'll execute this temporary file and give you a shell.
@@ -30,7 +30,7 @@ Here's an example, based on [**Photobomb**](../../HTB/Photobomb/Writeup.md):
 1. cd /tmp
 2. echo "/bin/bash" > [
 3. chmod +x [
-4. sudo PATH=/tmp:%PATH /opt/cleanup.sh
+4. sudo PATH=/tmp:$PATH /opt/cleanup.sh
 ```
 
 Where:
