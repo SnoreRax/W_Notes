@@ -1,4 +1,4 @@
-# General Concepts
+# General Privilege Escalation Concepts
 
 **Note:** I made this cuz there are some concepts that I'm not very sure of categorizing, so yeah.
 
