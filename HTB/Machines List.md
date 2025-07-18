@@ -54,6 +54,10 @@
 
 **Description:** Directory fuzzing with gobuster, CVE exploitation, file upload exploitation, abuse misconfigured _vi_ bin
 
+[**Photobomb**](Photobomb/Writeup.md)
+
+**Description:** Little bit of source code inspection, BurpSuite for intercepting and changing requests, blind command injection, abusing misconfigured PATH variable
+
 ## Medium
 
 [**Cronos**](Cronos/Writeup.md)
