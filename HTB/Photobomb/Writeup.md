@@ -122,7 +122,7 @@ This one took me a while, had to use a writeup cuz I was confused at what I was 
 And because I looked at writeups for that, I know that the exploit is about abusing the file path since it's not absolute. Apparently it had something to do with what was supposed to be found in [**Task 7**](#task-7), so yeah.
 
 Anyways, since I wasn't that familiar with **Path Hijacking**, I used [**0xdedinfosec's writeup**](https://0xdedinfosec.vercel.app/blog/hackthebox-photobomb-writeup) as a reference on how I should do it. I'll be sure to
-add this to my notes, but below was how I did mine based off of his writeup:
+add this to my [**notes**](../../Concepts/General), but below was how I did mine based off of his writeup:
 
 <img width="482" height="75" alt="image" src="https://github.com/user-attachments/assets/a6261cc2-aade-4b78-974b-a13a2bd8dd09" />
 
