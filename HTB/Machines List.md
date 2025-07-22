@@ -58,6 +58,10 @@
 
 **Description:** Little bit of source code inspection, BurpSuite for intercepting and changing requests, blind command injection, abusing misconfigured PATH variable
 
+[**Dog**](Dog/Writeup.md)
+
+**Description:** Directory fuzzing with ffuf, dumping repos with git-dumper, CVE exploitation, password reuse, absuing the ```bee``` bin
+
 ## Medium
 
 [**Cronos**](Cronos/Writeup.md)
