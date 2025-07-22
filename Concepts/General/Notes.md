@@ -36,3 +36,21 @@ Here's an example, based on [**Photobomb**](../../HTB/Photobomb/Writeup.md):
 Where:
 ```cleanup.sh``` = file with sudo perms
 ```[``` = binary that can be manipulated (supposedly, in the machine, other bins were vulnerable too apparently)
+
+## PHP Script
+
+In the event that you are able to run **PHP scripts** directly, such as in the case in [**Dog**](../../HTB/Dog/Writeup.md#root-flag), don't forget about the ```system()``` module, which lets you run **shell commands** directly.
+
+You can either do this for single commands:
+
+```
+system('[command]')
+```
+
+Or you can do this better method instead to have persistence:
+
+```
+system('/bin/bash')
+```
+
+You can use whatever shell you want/need, I usually prefer ```bash``` though.
