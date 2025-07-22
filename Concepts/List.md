@@ -14,6 +14,8 @@
 
 **2.** [**Target Enumeration**](Commands/Notes.md)
 
+**3. [**Git-dumper**](Git-dumper/Notes.md)**
+
 # Privilege Escalation
 
 **1.** [**General**](General/Notes.md)
