@@ -64,7 +64,9 @@
 
 ## Easy - Windows
 
+[**Jerry**](Jerry/Writeup.md)
 
+**Description:** Default credentials shenanigans, making payloads with msfvenom, Windows file traversal (I know that's normal, but this is my first time lol)
 
 ## Medium - Linux
 
