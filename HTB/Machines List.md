@@ -1,6 +1,6 @@
 # Machines List
 
-## Easy
+## Easy - Linux
 
 [**Lame**](Lame/Writeup.md)
 
@@ -62,7 +62,11 @@
 
 **Description:** Directory fuzzing with ffuf, dumping repos with git-dumper, CVE exploitation, password reuse, absuing the ```bee``` bin
 
-## Medium
+## Easy - Windows
+
+
+
+## Medium - Linux
 
 [**Cronos**](Cronos/Writeup.md)
 
