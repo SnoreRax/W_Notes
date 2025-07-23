@@ -1,4 +1,4 @@
-<img width="734" height="765" alt="image" src="https://github.com/user-attachments/assets/e93d638b-cb70-4dcb-82b3-1f5aae55c34c" /># Tasks
+# Tasks
 
 [**1. Which is the highest open TCP port on the target machine?**](#task-1)
 
