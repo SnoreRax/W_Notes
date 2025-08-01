@@ -66,6 +66,10 @@
 
 **Description:** Lots of CVE exploitation
 
+[**Devvortex**](Devvortex/Writeup.md)
+
+**Description:** Subdomain enumeration, directory fuzzing, CVE exploitation (twice), and a bunch more tbh
+
 ## Easy - Windows
 
 [**Jerry**](Jerry/Writeup.md)
