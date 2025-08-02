@@ -1,4 +1,4 @@
-<img width="1920" height="778" alt="image" src="https://github.com/user-attachments/assets/4a163b61-946f-4553-8d99-e5c27e7951f8" /># Tasks
+# Tasks
 
 [**1. How many TCP ports are open on the remote host?**](#task-1)
 
