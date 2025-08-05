@@ -70,6 +70,10 @@
 
 **Description:** Subdomain enumeration, directory fuzzing, CVE exploitation (twice), and a bunch more tbh
 
+[**Paper**](Paper/Writeup.md)
+
+**Description:** AI prompt injection, CVE exploitation
+
 ## Easy - Windows
 
 [**Jerry**](Jerry/Writeup.md)
