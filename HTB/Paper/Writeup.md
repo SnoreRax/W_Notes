@@ -20,16 +20,22 @@
 
 [**10. User Flag**](#user-flag)
 
-[**11. **](#task-11)
+[**11. What is the polkit version on the remote host?**](#task-11)
+
+[**12. What is the 2021 CVE ID for the vulnerability in this version of polkit related to bypassing credential checks for D-Bus requests?**](#task-12)
+
+[**13. Root Flag**](#root-flag)
 
 # Tools Used
 
 - nmap
-- 
+- curl
+- linpeas
 
 # Skills Used
 
--
+- CVE exploitation
+- AI prompt injection
 
 # Solutions
 
@@ -148,3 +154,49 @@ I got stumped so I looked at a writeup, I forgot ```port 22``` was open :/
 Yep.
 
 **Answer: 023947a5defdd59ce800ef15087797a5**
+
+## Task 11
+
+This task stumped me, so I looked at a writeup. I forgot _linpeas_ was a thing lol. So I used that.
+
+<img width="722" height="714" alt="image" src="https://github.com/user-attachments/assets/7967adc8-8701-4137-94e9-bbb25f0064bc" />
+
+I'll check if it found what the task is looking for.
+
+<img width="229" height="33" alt="image" src="https://github.com/user-attachments/assets/3d808ab9-b9a4-477a-b283-157514d0be5c" />
+
+This part is interesting, cuz after I searched it, I found this:
+
+<img width="706" height="644" alt="image" src="https://github.com/user-attachments/assets/d9252933-579b-45e5-8804-671dc2e59dc8" />
+
+At least I know what it's leading up to now, but first, I still have to find the specific **polkit** version that's on this machine.
+
+<img width="358" height="83" alt="image" src="https://github.com/user-attachments/assets/db85761a-3540-42f2-88f1-b3fa369d52b0" />
+
+I gave up on trying to read through the _linpeas_ report lmao. I just searched for the command to check the **polkit** version.
+
+**Answer: 0.115-6**
+
+## Task 12
+
+I already found that earlier lol.
+
+**Answer: CVE-2021-3560**
+
+## Root Flag
+
+To exploit the **CVE** found, follow this [**blog**](https://github.blog/security/vulnerability-research/privilege-escalation-polkit-root-on-linux-with-bug/), it provides detailed instructions on how the exploit works.
+
+Interestingly enough, it involves some timing lol. You'll know once you read it. 
+
+Because of that timing, I instead resorted to trying this [**PoC**](https://github.com/secnigma/CVE-2021-3560-Polkit-Privilege-Esclation/blob/main/poc.sh) because I couldn't get the timing right lol. Every time I try to set the password for the new user made, it would result in not being able to detect the PID of the command issued and erasing the user I made beforehand, forcing me to reset the process each time. It's not efficient that way, so hopefully the script works.
+
+<img width="687" height="833" alt="image" src="https://github.com/user-attachments/assets/0a5452a7-e6e4-4fb3-bf82-a523b4e71f50" />
+
+Anyways, if you notice here, it took a few tries. The reason is because it's a timing attack, it's to be expected that the first go may not work right off that bat. Keep that in mind next time you do time-based attacks. 
+
+<img width="682" height="568" alt="image" src="https://github.com/user-attachments/assets/99ca6e23-d720-40e0-acda-b9cea6d85f84" />
+
+Interestingly enough, right after I wrote that down, I lost my user and had to run the attack again. Time-based attacks really are volatile lol.
+
+**Answer: 129b415dd8ee4cd5adf3cfd94138c954**
