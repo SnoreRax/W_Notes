@@ -251,6 +251,30 @@ sudo cat ../../../../root/flag.txt
 
 **Flag:** picoCTF{Pat!3nt_15_Th3_K3y_ad7ea5ae}
 
+## Crack the Gate 1
+
+**Categories:** Web source inspection, MITM, Basic Crypto, Auth Bypass
+
+Use this username as instructed: _ctf-player@picoctf.org_
+
+<img width="1920" height="811" alt="image" src="https://github.com/user-attachments/assets/7dafde1d-3dc7-466e-8a31-bb6401dd0f25" />
+
+Decrypt 'ABGR: Wnpx - grzcbenel olcnff: hfr urnqre "K-Qri-Npprff: lrf" ' using _Caesar Cipher_
+
+<img width="1857" height="530" alt="image" src="https://github.com/user-attachments/assets/d0c53cbc-933c-4d53-8064-9d7fdebfa9dd" />
+
+Use that _HTTP Header_ in the request using _Burp_
+
+**Note:** This header might be useful for other challenges: _**X-Dev-Access: yes**_
+
+<img width="1918" height="888" alt="image" src="https://github.com/user-attachments/assets/51f6f92b-e7ef-4c9c-81bf-7829edeeaa9c" />
+
+Added the header there, and there you go.
+
+<img width="1920" height="915" alt="image" src="https://github.com/user-attachments/assets/df03d915-6af4-4481-b98e-b48d1e3fd8e4" />
+
+**Flag:** picoCTF{brut4_f0rc4_1a386e6f}
+
 # Medium Challenges
 
 ## Trickster
