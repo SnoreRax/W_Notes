@@ -253,7 +253,7 @@ sudo cat ../../../../root/flag.txt
 
 ## Crack the Gate 1
 
-**Categories:** Web source inspection, MITM, Basic Crypto, Auth Bypass
+**Categories:** inspect source, MITM, Basic Crypto, Auth Bypass
 
 Use this username as instructed: _ctf-player@picoctf.org_
 
