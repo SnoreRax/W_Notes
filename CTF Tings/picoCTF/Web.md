@@ -1,4 +1,4 @@
-<img width="1920" height="806" alt="image" src="https://github.com/user-attachments/assets/9054df39-8866-4cec-9fce-571811de3c2d" /><img width="1920" height="806" alt="image" src="https://github.com/user-attachments/assets/0fb36fac-27ca-4c73-a812-8d7c2ac4cc0e" /># Easy Challenges
+# Easy Challenges
 
 ## Web Decode
 
