@@ -1,4 +1,4 @@
-# Easy Challenges
+<img width="1920" height="806" alt="image" src="https://github.com/user-attachments/assets/9054df39-8866-4cec-9fce-571811de3c2d" /><img width="1920" height="806" alt="image" src="https://github.com/user-attachments/assets/0fb36fac-27ca-4c73-a812-8d7c2ac4cc0e" /># Easy Challenges
 
 ## Web Decode
 
@@ -408,3 +408,43 @@ You know the drill from here
 ![image](https://github.com/user-attachments/assets/54c1132d-44c6-4509-8a89-cae057755a4d)
 
 **Flag:** picoCTF{XML_3xtern@l_3nt1t1ty_0dcf926e}
+
+## JAuth
+
+**Categories:** JWT Cracking, Cookies
+
+Login with the provided credentials in the challenge description.
+
+<img width="1920" height="836" alt="image" src="https://github.com/user-attachments/assets/80ca0763-b29d-4cec-bd06-5d24d2c18dd8" />
+
+Grab the _JWT_ from _Storage_ in dev tools.
+
+<img width="1920" height="833" alt="image" src="https://github.com/user-attachments/assets/84d27310-2a96-49d1-9978-facd6d013527" />
+
+Decode _JWT_.
+
+<img width="1920" height="904" alt="image" src="https://github.com/user-attachments/assets/1e828bb0-1e02-42b9-99c8-aa27779e14d6" />
+
+Re-encode it, but change _alg_ to _none_ and _role_ to _admin_.
+
+<img width="1920" height="981" alt="image" src="https://github.com/user-attachments/assets/eded5988-402c-417a-b961-fafadc6d6ebb" />
+
+Paste re-encoded _JWT_ in _Cookies_ and reload the page.
+
+<img width="1920" height="833" alt="image" src="https://github.com/user-attachments/assets/0d56c8c9-1300-4a03-ba02-9d896db3c43b" />
+
+**Flag:** picoCTF{succ3ss_@u7h3nt1c@710n_72bf8bd5}
+
+## Power Cookie
+
+**Categories:** Cookies
+
+Just go along with the page then look at the _Cookies_ tab in _Storage_ to find the cookie to be modified.
+
+<img width="1920" height="806" alt="image" src="https://github.com/user-attachments/assets/ea738a9b-c07e-4b65-aa49-a5e302e27d6d" />
+
+Just set that value to 1, and good to go.
+
+<img width="1920" height="806" alt="image" src="https://github.com/user-attachments/assets/06b4b5b1-b14d-4917-813b-70860e78b602" />
+
+**Flag:** picoCTF{gr4d3_A_c00k13_65fd1e1a}
