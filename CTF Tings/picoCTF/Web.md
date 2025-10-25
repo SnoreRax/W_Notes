@@ -493,7 +493,7 @@ I'm a bit too lazy to go in-depth with how I found the directories, so I'll just
 
 <img width="1920" height="812" alt="image" src="https://github.com/user-attachments/assets/d16cbc01-f96c-4033-a067-6e4554cc58e7" />
 
-Anyways, there is it.
+Anyways, there it is.
 
 **Flag:** picoCTF{succ3ss_@h3n1c@10n_790d2615}
 
