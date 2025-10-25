@@ -514,3 +514,15 @@ Since we know where this file is in the directory, all we have to do is traverse
 <img width="887" height="246" alt="image" src="https://github.com/user-attachments/assets/3eb5d0a5-2541-4b0d-bd22-69bce4fb354c" />
 
 **Flag:** picoCTF{7h3_p47h_70_5ucc355_6db46514}
+
+## login
+
+**Categories:** Basic Crypto, Inspect Source
+
+<img width="1920" height="808" alt="image" src="https://github.com/user-attachments/assets/05b7351e-c9d2-4abc-b383-4552c1b52eec" />
+
+**Note:** If you look at the login logic, you'll find that that base64 encoded string is the flag since it's the one that's brought up as the flag upon login.
+
+<img width="651" height="134" alt="image" src="https://github.com/user-attachments/assets/663f7f61-6d04-4216-8a84-48ca7b607bee" />
+
+**Flag:** picoCTF{53rv3r_53rv3r_53rv3r_53rv3r_53rv3r}
