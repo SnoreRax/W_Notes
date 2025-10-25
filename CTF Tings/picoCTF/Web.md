@@ -584,3 +584,11 @@ but still a valid option.
 ```
 
 **Flag:** picoCTF{0n3_m0r3_t1m3_86f3e77f3c5a076866a0fdb3b29c52fd}
+
+## Web Gauntlet 3
+
+**Categories:** SQLi
+
+**Disclaimer:** Refer to **Web Gauntlet 2** above, the filter didn't seem to change in this one compared to previously ://
+
+**Flag:** picoCTF{k3ep_1t_sh0rt_6fdd78c92c7f26a10acd3ece176dea4d}
