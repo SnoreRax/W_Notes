@@ -496,3 +496,21 @@ I'm a bit too lazy to go in-depth with how I found the directories, so I'll just
 Anyways, there is it.
 
 **Flag:** picoCTF{succ3ss_@h3n1c@10n_790d2615}
+
+## Forbidden Paths
+
+**Categories:** File Path Traversal
+
+<img width="955" height="596" alt="image" src="https://github.com/user-attachments/assets/6850d368-5cb0-42b9-8b82-f49dd99e8384" />
+
+We'll need this info.
+
+<img width="1920" height="810" alt="image" src="https://github.com/user-attachments/assets/9b389cb6-a3f9-4bdf-9b24-b5e865078eee" />
+
+Since we know where this file is in the directory, all we have to do is traverse to where we want to go via ```../```.
+
+<img width="1923" height="831" alt="image" src="https://github.com/user-attachments/assets/58c4442b-f952-4ccf-8fd0-56ea91adc4be" />
+
+<img width="887" height="246" alt="image" src="https://github.com/user-attachments/assets/3eb5d0a5-2541-4b0d-bd22-69bce4fb354c" />
+
+**Flag:** picoCTF{7h3_p47h_70_5ucc355_6db46514}
