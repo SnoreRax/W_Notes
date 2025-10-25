@@ -570,9 +570,17 @@ I'm sure there were more relevant payloads but oh well.
 **Possible Payloads (with a bit of explanation as far as I understand):**
 
 ```
-1. 'IS NOT'[any alphanumeric character] -- From what I know, IS is a comparison operator that checks if a given value is equal to another givem value, kind of like '='. Normally, it would be FALSE all the time, since I presume it's because there's nothing for it to properly compare it to. However, we can manipulate this using NOT, which always reverses the boolean output of any operator. Since we only need a boolean output of TRUE to gain access, the following query gives us what we want.
-2. 'glob'* -- For this, all I know is that 'glob' is used to identify wildcard characters. Seeing as how '*' is a wildcard character, the boolean output should always be TRUE.
-3. ad'||min %00 -- This method is more complicated as it needs cURL to work. Since the null byte is normally unable to be registered by the SQL query, we need to instead make sure that the HTTP request sends this specific username, alongside any password of our choosing since it'll basically be nullified anyway. However, this method is more complicated since it requires the PHP session cookie to be able to tell the server that we have logged in as admin. As I don't understand the full command required for cURL, this method is a little more unreliable in my use case, but still a valid option.
+1. 'IS NOT'[any alphanumeric character] -- From what I know, IS is a comparison operator that checks if a given value is equal to another givem value,
+kind of like '='. Normally, it would be FALSE all the time, since I presume it's because there's nothing for it to properly compare it to.
+However, we can manipulate this using NOT, which always reverses the boolean output of any operator.
+Since we only need a boolean output of TRUE to gain access, the following query gives us what we want.
+2. 'glob'* -- For this, all I know is that 'glob' is used to identify wildcard characters.
+Seeing as how '*' is a wildcard character, the boolean output should always be TRUE.
+3. ad'||min %00 -- This method is more complicated as it needs cURL to work. Since the null byte is normally unable to be registered by the SQL query,
+we need to instead make sure that the HTTP request sends this specific username, alongside any password of our choosing since it'll basically be
+nullified anyway. However, this method is more complicated since it requires the PHP session cookie to be able to tell the server that we have
+logged in as admin. As I don't understand the full command required for cURL, this method is a little more unreliable in my use case,
+but still a valid option.
 ```
 
 **Flag:** picoCTF{0n3_m0r3_t1m3_86f3e77f3c5a076866a0fdb3b29c52fd}
