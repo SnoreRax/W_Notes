@@ -592,3 +592,23 @@ but still a valid option.
 **Disclaimer:** Refer to **Web Gauntlet 2** above, the filter didn't seem to change in this one compared to previously ://
 
 **Flag:** picoCTF{k3ep_1t_sh0rt_6fdd78c92c7f26a10acd3ece176dea4d}
+
+## Roboto Sans
+
+**Categories:** Inspect Source, Robots
+
+**Note:** I got hella bamboozled by the challenge title, should've know it was ```robots.txt``` instead of going for the _css_ files in the hopes that the flag was in the fonts :///
+
+<img width="759" height="202" alt="image" src="https://github.com/user-attachments/assets/afcec0de-2063-49c9-aac2-5edf159edff8" />
+
+Anyways, here's the contents of the _robots.txt_ file. ~~On a fun sidenote, we can see that the site was made using **WordPress** considering ```/wp-admin/``` is disallowed, which is the default admin panel for **WordPress**.~~ Nerd stuff, moving on.
+
+<img width="358" height="236" alt="image" src="https://github.com/user-attachments/assets/d5f74cc9-a802-4564-9164-0d4a836f4a19" />
+
+One of those strings looked an awful lot like _base64_, and it was.
+
+<img width="725" height="83" alt="image" src="https://github.com/user-attachments/assets/87d62f2a-f5d9-46f7-b47a-ca2bdb642dc5" />
+
+There it is.
+
+**Flag:** picoCTF{Who_D03sN7_L1k5_90B0T5_032f1c2b}
