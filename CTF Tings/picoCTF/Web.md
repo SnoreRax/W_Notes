@@ -470,3 +470,29 @@ Now just view it.
 <img width="572" height="147" alt="image" src="https://github.com/user-attachments/assets/dce15c8b-99ce-4563-9696-e92b24afd9de" />
 
 **Flag:** picoCTF{L3arN_S0m3_5qL_t0d4Y_21c94904}
+
+## Secrets
+
+**Categories:** inspect source
+
+I'm a bit too lazy to go in-depth with how I found the directories, so I'll just post screenshots of how I got there instead. Also, the flag's in ```/secret/hidden/superhidden```
+
+<img width="1920" height="806" alt="image" src="https://github.com/user-attachments/assets/9539880a-24dd-4144-8502-019bf9bbece4" />
+
+<img width="1920" height="885" alt="image" src="https://github.com/user-attachments/assets/59621199-7fe4-4303-a0fb-b75200359fe2" />
+
+**Note:** Had to do that because attempting to access ```/secret/``` directly will result in my traffic being blocked.
+
+<img width="1920" height="815" alt="image" src="https://github.com/user-attachments/assets/6221f97e-d92d-41e5-9bdc-2c97bcec12db" />
+
+**Note:** Same here.
+
+<img width="1920" height="829" alt="image" src="https://github.com/user-attachments/assets/b0bb8e5f-e14b-4cbc-950e-74f993195c7d" />
+
+**Note:** And here :///
+
+<img width="1920" height="812" alt="image" src="https://github.com/user-attachments/assets/d16cbc01-f96c-4033-a067-6e4554cc58e7" />
+
+Anyways, there is it.
+
+**Flag:** picoCTF{succ3ss_@h3n1c@10n_790d2615}
