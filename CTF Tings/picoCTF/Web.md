@@ -448,3 +448,25 @@ Just set that value to 1, and good to go.
 <img width="1920" height="806" alt="image" src="https://github.com/user-attachments/assets/06b4b5b1-b14d-4917-813b-70860e78b602" />
 
 **Flag:** picoCTF{gr4d3_A_c00k13_65fd1e1a}
+
+## SQL Direct
+
+**Categories:** SQLi
+
+Connect to the _postgres_ instance provided in the challenge description. Once there, use _'\?'_ to view commands.
+
+<img width="504" height="155" alt="image" src="https://github.com/user-attachments/assets/7be0b947-d868-44d3-9a93-3019517c5787" />
+
+<img width="542" height="156" alt="image" src="https://github.com/user-attachments/assets/98001d69-aef1-4cab-8982-2d368fa082b6" />
+
+Now that we see the commands, we'll use the one that lists tables to see what we're working with.
+
+<img width="643" height="367" alt="image" src="https://github.com/user-attachments/assets/33147b05-9c00-4edd-9211-194547bf1643" />
+
+<img width="295" height="156" alt="image" src="https://github.com/user-attachments/assets/10181c86-878d-40de-8f16-4abfa46f4b3c" />
+
+Now just view it.
+
+<img width="572" height="147" alt="image" src="https://github.com/user-attachments/assets/dce15c8b-99ce-4563-9696-e92b24afd9de" />
+
+**Flag:** picoCTF{L3arN_S0m3_5qL_t0d4Y_21c94904}
