@@ -3,6 +3,7 @@
 Rough draft for now just to put my thoughts down on how to solve challenges, for mainly these two categories:
 
 [**Web**](#web)
+
 [**Pwn**](#pwn)
 
 On a general note, don't be afraid to use ChatGPT to learn. For solving challenges on the other hand, ur a pussy if u use it too much >:)
