@@ -18,6 +18,7 @@ On a general note, don't be afraid to use ChatGPT to learn. For solving challeng
 6. For `SSTI` challenges, if you're absolutely certain that Python is being used, and the usual _SSTI payloads_ aren't working, try using simple _Python functions_ like `open('/flag.txt).read()` in place of the
 actual payload, so it'll look like this: `${open('/flag.txt').read()}`
 7. Speaking of Python, you should familiarize yourself with some of its functions to read files and execute commands at will
+8. In the event that the web challenge needs you to change your location, **use Google Chrome Sensors Dev Tool** (it's an extra tool that has to be accessed from the triple dot tab > More Tools > Sensors)
 
 ## Pwn
 
