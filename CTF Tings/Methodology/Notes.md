@@ -19,6 +19,7 @@ On a general note, don't be afraid to use ChatGPT to learn. For solving challeng
 actual payload, so it'll look like this: `${open('/flag.txt').read()}`
 7. Speaking of Python, you should familiarize yourself with some of its functions to read files and execute commands at will
 8. In the event that the web challenge needs you to change your location, **use Google Chrome Sensors Dev Tool** (it's an extra tool that has to be accessed from the triple dot tab > More Tools > Sensors)
+9. This is for **XSS** (time to start being more familiar with it). If you find that your script won't execute due to a _CSP (Content Security Policy)_, but the _nonce_, a cryptographic value that can determine whether or not an inline script is allowed to make a request, is static (like in the **Cursed State Policy challenge** in HTB), then you can simply take the _static nonce value_ and add it to the script like this: `<script nonce="[value in nonce]">alert('just a dummy script')</script>`
 
 ## Pwn
 
