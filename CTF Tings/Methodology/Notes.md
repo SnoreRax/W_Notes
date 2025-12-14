@@ -32,6 +32,7 @@ actual payload, so it'll look like this: `${open('/flag.txt').read()}`
 ```
 11. Here's some useful stuff for `403 forbidden bypasses` (useful for bug bounty too): [**READ IT PROPERLY**](https://book.hacktricks.wiki/en/network-services-pentesting/pentesting-web/403-and-401-bypasses.html)
 12. When obfuscating strings, instead of turning the string into `charCode()` or encoding it in `base64`, you can (most of the time) use the `eval()` function to split the string instead, like this: `eval('imp'+'ort()')`
+13. Speaking of which, if `eval()` doesn't work, try `String.fromCharCode([ASCII,characters,of,obfuscated,character])`, more pain in the ass but works all the same.
 
 ## Pwn
 
