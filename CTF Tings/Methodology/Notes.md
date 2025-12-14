@@ -30,7 +30,7 @@ actual payload, so it'll look like this: `${open('/flag.txt').read()}`
    });
 </script>
 ```
-11. 
+11. Here's some useful stuff for `403 forbidden bypasses` (useful for bug bounty too): (**READ IT PROPERLY**)[https://book.hacktricks.wiki/en/network-services-pentesting/pentesting-web/403-and-401-bypasses.html]
 
 
 ## Pwn
